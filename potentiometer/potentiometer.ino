@@ -9,9 +9,9 @@
   by this value.
 */
 
-int potPin = A0 ; 
-int ledPin = 13 ;
-int val = 0 ; 
+int potPin = A0; 
+int ledPin = 13;
+int val = 0; 
 
 void setup()
 {
@@ -25,5 +25,5 @@ void loop()
   delay(val);                  // stop the program for some time
   digitalWrite(ledPin, LOW);   // turn the ledPin off
   delay(val);                  // stop the program for some time
-  Serial.println(val) ;
+  Serial.println(val);
 }
